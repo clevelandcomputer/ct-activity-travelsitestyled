@@ -4,7 +4,7 @@ to border-box. This will ensure that elements have padding and
 border included in the element's total width and height.
 */
 * {
-  border-box: 1px solid black;
+  box-sizing: border-box;
 }
 
 /*
