@@ -14,23 +14,35 @@ Target the body element and set some common styles for the page:
  - font to helvetica
  - font size to 16px
 */
-
+body {
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+  font-size: 16px;
+}
 
 /*
 override our h1 style to have a font size of 32px
 */
 
-
+h1 [
+  font-size: 32px;
+]
 
 /*
 override our h2 style to have a font size of 28px
 */
+h2 {
+  font-size: 28px;
 
+}
 
 /*
 style the element with the id of header-statement to have centered text
 */
-
+#header-statement {
+  text-align: center;
+}
 
 
 /*
@@ -40,7 +52,12 @@ target the elements with a class of page-row and set the following properties:
  - give the element a padding of 5%
  - give the element a margin of 2% on the top and bottom
 */
-
+.page-row {
+  width: 100%;
+  clear: both;
+  padding: 5%;
+  margin: 2px 0 2px 0;
+}
 
 
 /*
