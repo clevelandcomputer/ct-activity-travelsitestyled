@@ -75,9 +75,9 @@ target the elements with a class of card and set the following properties:
 */
 .card {
   width: 20%;
-  height: 300px;
+  min-height: 300px;
   margin: 2.5%;
-  padding: 15% 0 5% 0;
+  padding: 15% 0 0 0;
   float: left;
   background-color: white;
   text-align: center;
